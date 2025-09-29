@@ -12,6 +12,7 @@
 
 ## Release History
 ```
+- Version 1.1.3-Kbrona [29-09-2025]
 - Version 1.1.3 [25-07-2020]
 - Version 1.1.2 [19-05-2019]
 - Version 1.1.1 [01-02-2019]
@@ -53,17 +54,17 @@ CMSeeK is built using **python3**, you will need python3 to run this tool and is
 
 It is fairly easy to use CMSeeK, just make sure you have python3 and git (just for cloning the repo) installed and use the following commands:
 
-- git clone `https://github.com/Tuhinshubhra/CMSeeK`
-- cd CMSeeK
-- pip/pip3 install -r requirements.txt
+pip install git+https://github.com/Darkcast/CMSeeK-kbrona.git
+
+
 
 For guided scanning:
 
-- python3 cmseek.py
+- cmseek
 
 Else:
 
-- python3 cmseek.py -u <target_url> [...]
+- cmseek -u <target_url> [...]
 
 Help menu from the program:
 
@@ -207,3 +208,4 @@ CMSeeK is licensed under [GNU General Public License v3.0](https://github.com/Tu
 ## Follow Me @r3dhax0r:
 
 [Twitter](https://twitter.com/r3dhax0r)   
+
