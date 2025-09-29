@@ -18,7 +18,7 @@ URL = 'https://github.com/Tuhinshubhra/CMSeeK'
 EMAIL = 'contactr3d@protonmail.com'
 AUTHOR = 'Tuhin Shubhra'
 REQUIRES_PYTHON = '>=3.6.0'
-VERSION = '1.1.3-kbrona'
+VERSION = '1.1.3+kbrona'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
