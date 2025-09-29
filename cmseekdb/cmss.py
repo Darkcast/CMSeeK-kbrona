@@ -1226,3 +1226,82 @@ squarespace = {
     'vd':'0',
     'deeps':'0'
 }
+ 
+# additional detection. 
+
+strapi = {
+    'name': 'Strapi',
+    'url': 'https://strapi.io',
+    'vd': '0',       
+    'deeps': '0'
+}
+
+sanity = {
+    'name': 'Sanity',
+    'url': 'https://www.sanity.io',
+    'vd': '0',
+    'deeps': '0'
+}
+
+storyblok = {
+    'name': 'Storyblok',
+    'url': 'https://www.storyblok.com',
+    'vd': '0',
+    'deeps': '0'
+}
+
+directus = {
+    'name': 'Directus',
+    'url': 'https://directus.io',
+    'vd': '0',
+    'deeps': '0'
+}
+
+prismic = {
+    'name': 'Prismic',
+    'url': 'https://prismic.io',
+    'vd': '0',
+    'deeps': '0'
+}
+
+datocms = {
+    'name': 'DatoCMS',
+    'url': 'https://www.datocms.com',
+    'vd': '0',
+    'deeps': '0'
+}
+
+contentstack = {
+    'name': 'Contentstack',
+    'url': 'https://www.contentstack.com',
+    'vd': '0',
+    'deeps': '0'
+}
+
+keystone = {
+    'name': 'KeystoneJS',
+    'url': 'https://keystonejs.com',
+    'vd': '0',
+    'deeps': '0'
+}
+
+jekyll = {
+    'name': 'Jekyll',
+    'url': 'https://jekyllrb.com',
+    'vd': '0',
+    'deeps': '0'
+}
+
+gatsby = {
+    'name': 'Gatsby',
+    'url': 'https://www.gatsbyjs.com',
+    'vd': '0',
+    'deeps': '0'
+}
+
+netlifycms = {
+    'name': 'Netlify CMS',
+    'url': 'https://www.netlifycms.org',
+    'vd': '0',
+    'deeps': '0'
+}
