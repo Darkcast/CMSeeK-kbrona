@@ -18,7 +18,7 @@ URL = 'https://github.com/Tuhinshubhra/CMSeeK'
 EMAIL = 'contactr3d@protonmail.com'
 AUTHOR = 'Tuhin Shubhra'
 REQUIRES_PYTHON = '>=3.6.0'
-VERSION = '1.1.3'
+VERSION = '1.1.3-kbrona'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
@@ -104,12 +104,16 @@ setup(
     python_requires=REQUIRES_PYTHON,
     url=URL,
     packages=find_packages(exclude=["tests", "*.tests", "*.tests.*", "tests.*"]),
-    # If your package is a single module, use this instead of 'packages':
-    # py_modules=['mypackage'],
-
+    
+    # FIXED: Use scripts parameter to install cmseek.py as executable
+    scripts=['cmseek.py'],
+    
+    # Alternative approach (requires wrapping code in main() function):
+    # py_modules=['cmseek'],
     # entry_points={
-    #     'console_scripts': ['mycli=mymodule:cli'],
+    #     'console_scripts': ['cmseek=cmseek:main'],
     # },
+    
     install_requires=REQUIRED,
     extras_require=EXTRAS,
     include_package_data=True,
