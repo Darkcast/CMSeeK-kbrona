@@ -7,7 +7,7 @@
   <a href="https://twitter.com/r3dhax0r"><img src="https://img.shields.io/twitter/url/https/github.com/Tuhinshubhra/CMSeeK.svg?style=social" alt="Twitter" /></a>
 </p>
 
-This is an installable version of cmseek tool for autimation.
+***This is a packaged, installable version of the CMSeeK tool that simplifies installation, automation, and deployment. Instead of manually cloning the repository and running it from the source folder, users can install it directly with pip for faster setup and easier integration.***
 
 ## What is a CMS?
 > A content management system (CMS) manages the creation and modification of digital content. It typically supports multiple users in a collaborative environment. Some noteable examples are: *WordPress, Joomla, Drupal etc*.
@@ -16,12 +16,6 @@ This is an installable version of cmseek tool for autimation.
 ```
 - Version 1.1.3-Kbrona [29-09-2025]
 - Version 1.1.3 [25-07-2020]
-- Version 1.1.2 [19-05-2019]
-- Version 1.1.1 [01-02-2019]
-- Version 1.1.0 [28-08-2018]
-- Version 1.0.9 [21-08-2018]
-- Version 1.0.8 [14-08-2018]
-- Version 1.0.7 [07-08-2018]
 ...
 ```
 [Changelog File](https://github.com/Tuhinshubhra/CMSeeK/blob/master/CHANGELOG)
@@ -72,8 +66,8 @@ Help menu from the program:
 
 ```
 USAGE:
-       python3 cmseek.py (for guided scanning) OR
-       python3 cmseek.py [OPTIONS] <Target Specification>
+       cmseek (for guided scanning) OR
+       cmseek [OPTIONS] <Target Specification>
 
 SPECIFING TARGET:
       -u URL, --url URL            Target Url
@@ -111,17 +105,17 @@ HELP & MISCELLANEOUS:
       --batch                      Never ask you to press enter after every site in a list is scanned
 
 EXAMPLE USAGE:
-      python3 cmseek.py -u example.com                           # Scan example.com
-      python3 cmseek.py -l /home/user/target.txt                 # Scan the sites specified in target.txt (comma separated)
-      python3 cmseek.py -u example.com --user-agent Mozilla 5.0  # Scan example.com using custom user-Agent Mozilla is 5.0 used here
-      python3 cmseek.py -u example.com --random-agent            # Scan example.com using a random user-Agent
-      python3 cmseek.py -v -u example.com                        # enabling verbose output while scanning example.com
+      cmseek -u example.com                           # Scan example.com
+      cmseek -l /home/user/target.txt                 # Scan the sites specified in target.txt (comma separated)
+      cmseek -u example.com --user-agent Mozilla 5.0  # Scan example.com using custom user-Agent Mozilla is 5.0 used here
+      cmseek -u example.com --random-agent            # Scan example.com using a random user-Agent
+      cmseek -v -u example.com                        # enabling verbose output while scanning example.com
 
 ```
 
 ## Checking For Update:
 
-You can check for update either from the main menu or use `python3 cmseek.py --update` to check for update and apply auto update.
+You can check for update either from the main menu or use `cmseek --update` to check for update and apply auto update.
 
 P.S: Please make sure you have `git` installed, CMSeeK uses git to apply auto update.
 
@@ -206,9 +200,3 @@ Please make sure you have the following info attached when opening a new issue:
 ## License:
 
 CMSeeK is licensed under [GNU General Public License v3.0](https://github.com/Tuhinshubhra/CMSeeK/blob/master/LICENSE)
-
-## Follow Me @r3dhax0r:
-
-[Twitter](https://twitter.com/r3dhax0r)   
-
-
