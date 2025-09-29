@@ -105,14 +105,13 @@ setup(
     url=URL,
     packages=find_packages(exclude=["tests", "*.tests", "*.tests.*", "tests.*"]),
     
-    # FIXED: Use scripts parameter to install cmseek.py as executable
-    scripts=['cmseek.py'],
-    
-    # Alternative approach (requires wrapping code in main() function):
-    # py_modules=['cmseek'],
-    # entry_points={
-    #     'console_scripts': ['cmseek=cmseek:main'],
-    # },
+    # FIXED: Include cmseek as a module and create entry point
+    py_modules=['cmseek'],
+    entry_points={
+        'console_scripts': [
+            'cmseek=cmseek:main',
+        ],
+    },
     
     install_requires=REQUIRED,
     extras_require=EXTRAS,
